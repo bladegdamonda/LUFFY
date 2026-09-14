@@ -54,12 +54,7 @@ LUFFY/
 - **FSDP Training**: Model loading and distributed training setup
 - **Data Processing**: Optimize batch reshaping, broaden tensor support, and improve validation
 
-### ✅ Recently Completed
-
-- [x] **OpenAI integration** - Added client initialization, chat-completion calls, response extraction, basic error handling, and exponential backoff for rate limits
-- [x] **Batch dimension handling** - Implemented `fold_batch_dim` and `unfold_batch_dim`, including tensor and non-tensor reshaping
-
-### 📝 Remaining TODO List
+### 📝 Complete TODO List
 
 - [ ] **luffy/deepscaler/utils.py:45** - Add logging for API calls and errors
 - [ ] **luffy/deepscaler/utils.py:46** - Support batch processing for multiple prompts
